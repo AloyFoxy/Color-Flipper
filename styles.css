@@ -683,6 +683,18 @@ video {
   width: 83.333333%;
 }
 
+.max-w-4xl {
+  max-width: 56rem;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
+}
+
+.max-w-3xl {
+  max-width: 48rem;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -752,6 +764,16 @@ video {
 
 .border-transparent {
   border-color: transparent;
+}
+
+.border-slate-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(100 116 139 / var(--tw-border-opacity));
+}
+
+.border-slate-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(148 163 184 / var(--tw-border-opacity));
 }
 
 .bg-slate-700 {
@@ -991,6 +1013,36 @@ video {
   padding-bottom: 2.5rem;
 }
 
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1060,6 +1112,11 @@ video {
 .text-slate-800 {
   --tw-text-opacity: 1;
   color: rgb(30 41 59 / var(--tw-text-opacity));
+}
+
+.text-slate-500 {
+  --tw-text-opacity: 1;
+  color: rgb(100 116 139 / var(--tw-text-opacity));
 }
 
 .shadow-sm {
@@ -1180,4 +1237,63 @@ video {
 
 .ease-in {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+.hover\:border-none:hover {
+  border-style: none;
+}
+
+.hover\:border-transparent:hover {
+  border-color: transparent;
+}
+
+.hover\:bg-slate-300:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-slate-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-slate-800:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  @media (min-width: 768px) {
+    .sm\:md\:text-sm {
+      font-size: 0.875rem;
+      line-height: 1.25rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
 }

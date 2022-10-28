@@ -13,23 +13,26 @@
     <header class="w-full h-56">
         <nav class="w-full h-20 bg-slate-200 flex flex-row gap-5 items-center justify-between px-6 drop-shadow-md">
             <div class="">
-                <a class="font-bold text-4xl" href="">Color Flipper</a>
+                <a class="font-bold text-2xl sm:text-4xl" href="">Color Flipper</a>
             </div>
             <div>
-                <a class="font-normal text-4xl" href="">Simple Hex</a>
+                <a class="font-normal text-2xl sm:text-4xl" href="">Simple Hex</a>
             </div>
         </nav>
     </header>
     <main class="w-full h-32 flex flex-col items-center">
-        <div
-            id="wrapperInfo"
-            class="bg-slate-200 border border-slate-800 w-5/6 h-auto py-10 rounded-xl flex flex-col items-center justify-center transition-all duration-100 ease-in">
-            <h1 class="text-4xl font-bold text-center text-slate-800">Background Color: <span
-                    id="valueColor">#e2e8f0</span>
+        <div id="wrapperInfo"
+            class="bg-slate-200 border border-slate-400 w-auto px-8 py-6 h-auto rounded-xl flex flex-col items-center justify-center transition-all duration-100 ease-in">
+            <h1 class="text-2xl font-bold text-center text-slate-800 sm:text-4xl">
+                Background Color:
+                <span
+                    id="valueColor">#e2e8f0
+                </span>
             </h1>
         </div>
         <div class="mt-10">
-            <button id="btn" class="py-4 px-10 border rounded-lg text-slate-800 bg-slate-200 border-slate-800 font-bold text-2xl transition-all duration-100 ease-in">
+            <button id="btn"
+                class="px-6 py-4 border rounded-lg text-slate-800 bg-slate-200 border-slate-400 font-bold text-2xl sm:text-3xl transition-all duration-100 ease-in hover:bg-slate-300 hover:border-transparent">
                 Change color
             </button>
         </div>
